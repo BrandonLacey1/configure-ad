@@ -94,7 +94,7 @@ This is me configuring a new users under a OU(Organizational Unit).
 <br />
 
 <p>
-<img src=" https://i.imgur.com/cz5aEym.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cz5aEym.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 This is how I would configure the users access and accouunt information.
@@ -105,12 +105,12 @@ This is how I would configure the users access and accouunt information.
 <img src="https://i.imgur.com/iafISUv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-g
+This is me adding the user to the proper domain group.
 </p>
 <br />
 
 <p>
-<img src="blob:https://imgur.com/7a9e39b0-c615-4514-9b62-b10353fadb13" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/7a9e39b0-c615-4514-9b62-b10353fadb13" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next I had to confiure that the both computers was to connect to each others domain service for other accounts can use it.  
@@ -161,6 +161,6 @@ This is me testing to see if i can log into Client-1 with one of these accounts
 <img src="https://i.imgur.com/cqMQ2JZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-As we can see, it was a sucess. 
+As we can see, it was a success. 
 </p>
 <br />
