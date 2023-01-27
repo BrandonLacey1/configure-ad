@@ -110,25 +110,57 @@ g
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="blob:https://imgur.com/7a9e39b0-c615-4514-9b62-b10353fadb13" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next I had to confiure that the both computers was to connect to each others domain service for other accounts can use it.  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rjY7YIK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This would be how to confirm that the DC-1 computer users should be able to connecet to the Client-1 computer. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/wquwVGb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now I will be creating multiple users at once with a script for powershell ISE.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/UYsmGvw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+This is the script and it will make 1000 users, generate differents names and it will make them all have the same Password.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/YyO8PhT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+These are the different users that was cretaed.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/26B6OTD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+This is me testing to see if i can log into Client-1 with one of these accounts
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/cqMQ2JZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+As we can see, it was a sucess. 
 </p>
 <br />
