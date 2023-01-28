@@ -174,17 +174,25 @@ This is the script and it will make 10,000 users, generate different names and i
 <br />
 
 <p>
-<img src="https://i.imgur.com/KssNRCW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KMi8sRg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-bfydgfyabyfb
+These are the different users that was created.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/KssNRCW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Ekb4E45.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-bfydgfyabyfb
+This is me testing to see if I can log into Client-1 with one of these accounts.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/5W1I9tm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+As we can see, it was a success.
 </p>
 <br />
