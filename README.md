@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/wyQGdkd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/u0JWmoq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 These are the 2 VM's that I used for this project. CLient-1 and DC(Domain Controlloer) 1. Now I will login in the CLient-1 VM with the RDP. 
@@ -38,7 +38,15 @@ These are the 2 VM's that I used for this project. CLient-1 and DC(Domain Contro
 <br />
 
 <p>
-<img src="https://i.imgur.com/HXPMZyD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4OUb7yS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I have to make use the IP address won't change so I went into ..... connected it to the DNS server. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/u9WqV0Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now I am configuring the connectivity between Client 1and DC-1 to see if the connection works but pinging DC-1 DNS server. As you see it doesn’t connect. Therefore, I login into the DC-1 controller and gave access to Client by going into the firewall and enabling ICMP.
@@ -46,7 +54,15 @@ Now I am configuring the connectivity between Client 1and DC-1 to see if the con
 <br />
 
 <p>
-<img src="https://i.imgur.com/tWJxIOW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jVElZWx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+This is me configuring ICMP through the DC-1 firewall.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/IjkmuBb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now once I try again, the ping is able to reach the other virtual machine.
@@ -54,7 +70,7 @@ Now once I try again, the ping is able to reach the other virtual machine.
 <br />
 
 <p>
-<img src="https://i.imgur.com/0UzWPHj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/l9LygcA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now I installed active direcrtoy through the DC-1 VM by going into the server manager and click on add roles and this is how you would install active directory since you would have to choose Active Domain Services.
@@ -62,7 +78,7 @@ Now I installed active direcrtoy through the DC-1 VM by going into the server ma
 <br />
 
 <p>
-<img src="https://i.imgur.com/A5uls5v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1sJ5uEv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After you install it the first time, you will have to finally you have to do the deloymwnt configurations for it to work properly.
@@ -110,23 +126,39 @@ This is me adding the user to the proper domain group.
 <br />
 
 <p>
-<img src="https://imgur.com/7a9e39b0-c615-4514-9b62-b10353fadb13" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ygsL6tU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next I had to confiure that the both computers was to connect to each others domain service for other accounts can use it.  
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/rjY7YIK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-This would be how to confirm that the DC-1 computer users should be able to connecet to the Client-1 computer. 
+gdudyugdguygu
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/wquwVGb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ezvM7fH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+dbgdfusnficbub
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/KssNRCW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+bfydgfyabyfb
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/amD7AJM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+This would be how to confirm that the DC-1 computer users should be able to connect to the Client-1 computer.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/xUXGnX6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now I will be creating multiple users at once with a script for powershell ISE.
@@ -134,33 +166,25 @@ Now I will be creating multiple users at once with a script for powershell ISE.
 <br />
 
 <p>
-<img src="https://i.imgur.com/UYsmGvw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/l8ohi03.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-This is the script and it will make 1000 users, generate differents names and it will make them all have the same Password.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/YyO8PhT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-These are the different users that was cretaed.
+This is the script and it will make 10,000 users, generate different names and it will make them all have the same Password.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/26B6OTD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KssNRCW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-This is me testing to see if i can log into Client-1 with one of these accounts
+bfydgfyabyfb
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/cqMQ2JZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KssNRCW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-As we can see, it was a success. 
+bfydgfyabyfb
 </p>
 <br />
