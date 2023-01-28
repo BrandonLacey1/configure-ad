@@ -41,7 +41,7 @@ These are the 2 VM's that I used for this project. CLient-1 and DC(Domain Contro
 <img src="https://i.imgur.com/4OUb7yS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I have to make use the IP address won't change so I went into ..... connected it to the DNS server. 
+I have to make sure the IP address won't change so I went into DC-1 VM connected it to the DNS server, so I made it static.
 </p>
 <br />
 
@@ -129,7 +129,7 @@ This is me adding the user to the proper domain group.
 <img src="https://i.imgur.com/ygsL6tU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-gdudyugdguygu
+Now I logged into Client-1 to rename the PC so that all users on the DC-1 VM could log into it but I got an error because the DNS needs to be changed. So I neede to go back on Azure to change it manually. 
 </p>
 <br />
 
@@ -137,7 +137,7 @@ gdudyugdguygu
 <img src="https://i.imgur.com/ezvM7fH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-dbgdfusnficbub
+I have to make sure the IP address won't change so I went into Client-1 VM connected it to the DNS server. 
 </p>
 <br />
 
@@ -145,7 +145,7 @@ dbgdfusnficbub
 <img src="https://i.imgur.com/KssNRCW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-bfydgfyabyfb
+Once you get done manually doing everything on Azure, I logged back in to CLient-1 once more and it should work.
 </p>
 <br />
 
